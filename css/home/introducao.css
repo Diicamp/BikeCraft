@@ -1,5 +1,6 @@
 .introducao-bg {
   background: linear-gradient(#000000 95%, #fff 5%);
+  border-top: 2px solid rgb(2 2 255);
   color: #fff;
 }
 
@@ -7,8 +8,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  box-sizing: border-box;
-  max-width: 1200px;
+  max-width: 1400px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -27,10 +27,7 @@
 
 .introducao h1 {
   margin-bottom: 32px;
-  font-size: 64px;
-  line-height: 1.125;
-  font-family: "Poppins";
-  font-weight: 600;
+
 }
 
 .introducao h1 span {
@@ -45,10 +42,10 @@
 
 @media (max-width: 1200px) {
   .introducao h1 {
-    font-size: 48px;
+    font-size: 3rem;
   }
   .introducao p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 
@@ -67,7 +64,7 @@
   }
 
   .introducao h1 {
-    font-size: 32px;
+    font-size: 2rem;
     margin-bottom: 16px;
   }
 
